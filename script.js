@@ -158,6 +158,9 @@ if (automorphToggle) {
   });
 }
 
-applyEnvironment(currentEnvironment);
+// Apply the initial theme directly (applyEnvironment skips when prev === current)
+body.classList.add(`environment-${environments[currentEnvironment].key}`);
+body.dataset.environment = environments[currentEnvironment].key;
+
 startAutoMorph();
 typeHighlight(0);
