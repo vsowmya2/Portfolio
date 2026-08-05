@@ -25,7 +25,7 @@ const highlights = [
   'I wear a lot of hats. I write code, design systems, experiment with AI, work with people, and figure things out when there isn\u2019t a playbook.',
 ];
 
-let currentEnvironment = 1;
+let currentEnvironment = 0;
 let isAutoMorph = true;
 let autoMorphTimer;
 let currentRole = 0;
