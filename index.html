@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sowmya Adapa builds dependable AI systems, agentic platforms, and production-ready experiences for modern teams."
+    />
+    <meta name="theme-color" content="#06070b" />
+    <title>Sowmya Adapa | AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Shooting stars for night-sky environment -->
+    <div class="shooting-stars" aria-hidden="true">
+      <span class="shooting-star shooting-star--1"></span>
+      <span class="shooting-star shooting-star--2"></span>
+      <span class="shooting-star shooting-star--3"></span>
+    </div>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="topbar__name" href="#home">Sowmya Adapa</a>
+        <nav class="env-nav" aria-label="Visual environment">
+          <span class="env-nav__label">environment</span>
+          <div class="env-nav__group" role="group" aria-label="Choose environment">
+            <button class="env-pill" data-environment="night-sky" type="button">Aurora</button>
+            <button class="env-pill is-active" data-environment="ledger" type="button" aria-pressed="true">Ledger</button>
+            <button class="env-pill" data-environment="terminal" type="button">Console</button>
+            <button class="env-pill" data-environment="editorial" type="button">Editorial</button>
+          </div>
+          <button class="env-automorph is-active" id="automorph-toggle" type="button" aria-pressed="true">
+            <span class="env-automorph__label">auto-morph</span>
+            <span class="env-automorph__next" id="automorph-next">next ▸ Console</span>
+          </button>
+        </nav>
+      </header>
+
+      <main id="home" class="container">
+        <section class="hero">
+          <div class="hero__content">
+            <div class="hero__headline">
+              <h1 id="hero-title">Sowmya Adapa</h1>
+              <div class="hero__roles" aria-live="polite">
+                <span id="role-switcher">Software Engineer</span>
+              </div>
+            </div>
+            <div class="hero__summary">
+              <p class="hero__intro" id="hero-intro">I wear a lot of hats. I write code, design systems, experiment with AI, work with people, and figure things out when there isn't a playbook.</p>
+              <div class="hero__links">
+                <a href="#about">Read more</a>
+                <a href="#contact">Let’s talk</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <div class="section__head">
+            <span class="section__number">01</span>
+            <h2>Who I am</h2>
+          </div>
+          <div class="section__body">
+            <p>
+              I grew up in India and did my Master's in Computer Science at Indiana State University. Today I'm an AI Solutions Architect at MAQ Software, where the work spans the whole range: writing the code, designing the system, leading the project, and standing in front of the customer to show it working.
+            </p>
+            <p>
+              Most of what I build is around making AI useful beyond the demo. I'm drawn to systems that have to reason, interact with other systems, and make decisions in the real world, and to the engineering underneath that makes those systems possible. I like taking new technology apart, understanding where it breaks, and figuring out how to turn it into something dependable without losing what made it interesting in the first place.
+            </p>
+            <p>
+              I move between roles because I've had to: hands-on engineer, solutions architect, project lead. Some days I'm deep in the code; other days I'm thinking about architecture, working through a problem with a customer, or helping a team decide what to build next. I care most about the decisions that aren't always visible: the boundaries, tradeoffs, and small details that determine whether a system actually holds up.
+            </p>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section__head">
+            <span class="section__number">02</span>
+            <h2>Work experience</h2>
+          </div>
+          <p class="section__tagline">Where I've worked, most recent first.</p>
+          <div class="section__body">
+            <article class="entry">
+              <div class="entry__header">
+                <h3>Technical Program Manager, AI Solutions</h3>
+                <span>Jan 2025 – Present</span>
+              </div>
+              <p class="entry__company">MAQ Software · Redmond, WA</p>
+              <p>
+                Build agentic AI platforms, internal tooling, and AI product features used across the company and by enterprise clients.
+              </p>
+            </article>
+
+            <article class="entry">
+              <div class="entry__header">
+                <h3>AI Engineer Intern</h3>
+                <span>May 2024 – Aug 2024</span>
+              </div>
+              <p class="entry__company">MAQ Software · Redmond, WA</p>
+              <p>
+                Built multi-agent system and NLP pipeline turning large-scale user data into personalization and product insights.
+              </p>
+            </article>
+
+            <article class="entry">
+              <div class="entry__header">
+                <h3>Software Engineer</h3>
+                <span>Jul 2021 – Jul 2023</span>
+              </div>
+              <p class="entry__company">MAQ Software · Hyderabad, India</p>
+              <p>
+                Built large-scale ETL and real-time streaming pipelines, and applied ML forecasting across enterprise data systems.
+              </p>
+            </article>
+
+            <article class="entry">
+              <div class="entry__header">
+                <h3>AI/ML Instructor</h3>
+                <span>Nov 2020 – Jul 2021</span>
+              </div>
+              <p class="entry__company">WhiteHat JR · Mumbai, India</p>
+              <p>
+                Taught AI and machine learning while developing advanced course material and capstone projects around modern ML models and applications.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="section__head">
+            <span class="section__number">03</span>
+            <h2>What I built</h2>
+          </div>
+          <div class="section__body projects-grid">
+            <article class="project">
+              <h3>AI Event Assistant Chatbot</h3>
+              <p>
+                An AI assistant that helped 225,000+ live-event attendees find answers and recommendations in real time. Built RAG over Azure AI Search with semantic re-ranking, paired with intent classification to route queries accurately. Deployed on multi-region Azure App Service with a React + ASP.NET Core 8.0 stack.
+              </p>
+              <a class="project__link" href="https://build.microsoft.com" target="_blank" rel="noopener">View live &rarr;</a>
+            </article>
+            <article class="project">
+              <h3>Real-Time Feedback Insights Agent</h3>
+              <p>
+                Analyzes chatbot interactions during live events, filtering system-generated prompts to surface genuine attendee signals. Clusters questions into themes, detects trends, and fires threshold-based alerts to Teams channels via Microsoft Graph API.
+              </p>
+            </article>
+            <article class="project">
+              <h3>MCP Onboarding Server</h3>
+              <p>
+                Model Context Protocol server exposing persona-based tool endpoints over stdio/HTTP transport. Enables AI agents to retrieve role-specific context and respond with tailored guidance, cutting onboarding friction and repetitive queries.
+              </p>
+            </article>
+            <article class="project">
+              <h3>Automated FAQ Generation</h3>
+              <p>
+                Self-improving RAG workflow using Azure OpenAI and Logic Apps: triages unanswered queries and disliked responses, generates candidate FAQs, and after human approval, feeds the new knowledge back into the retrieval index, closing the loop automatically.
+              </p>
+            </article>
+            <article class="project">
+              <h3>Responsible AI Assessment Agent</h3>
+              <p>
+                Automates responsible-AI review with a multi-agent crew that evaluates prompts across safety dimensions: XPIA, groundedness, jailbreak resistance, and harmful content. The agents generate structured feedback, apply targeted fixes, and consolidate findings into enforceable deployment guidelines.
+              </p>
+            </article>
+            <article class="project">
+              <h3>PR Review Assistant</h3>
+              <p>
+                Multi-agent code review system with 5 specialist agents, 9 static analysis tools, and weighted quality scoring. Delivers AI-powered feedback in Azure DevOps with per-PR summaries, 0-100 quality scores, and inline comments. Validated by 90+ automated test cases.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="certifications" class="section">
+          <div class="section__head">
+            <span class="section__number">04</span>
+            <h2>Certifications</h2>
+          </div>
+          <div class="section__body certs-grid">
+            <div class="cert">
+              <h4>Microsoft Certified: Fabric Analytics Engineer</h4>
+              <p>End-to-end analytics with Microsoft Fabric; pipeline orchestration, semantic models, monitoring.</p>
+              <a class="project__link" href="https://learn.microsoft.com/api/credentials/share/en-us/VenkataSowmyaAdapa-1408/8C3A327973EC3938?sharingId" target="_blank" rel="noopener">View credential &rarr;</a>
+            </div>
+            <div class="cert">
+              <h4>Microsoft Certified: Fabric Data Engineer</h4>
+              <p>Data engineering for Microsoft Fabric: pipelines, orchestration, lakehouse/warehouse workloads.</p>
+              <a class="project__link" href="https://learn.microsoft.com/api/credentials/share/en-us/VenkataSowmyaAdapa-1408/5E7DCA0E793E07D9?sharingId=80DBC2EBDA5C5419" target="_blank" rel="noopener">View credential &rarr;</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer container">
+        <p class="footer__lead">Currently shipping. <em>Always reachable.</em></p>
+        <div class="footer__links">
+          <a href="mailto:sowmya800@outlook.com">sowmya800@outlook.com</a>
+          <a href="https://www.linkedin.com/in/sowmyaadapa" target="_blank" rel="noreferrer">linkedin</a>
+        </div>
+        <p class="footer__meta">© <span id="year"></span> Sowmya Adapa · Redmond / open to conversations</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
